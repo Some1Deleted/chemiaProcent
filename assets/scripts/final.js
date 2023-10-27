@@ -139,7 +139,7 @@ let masaPierwiastka = eval(pierwiastekInput.value);
 function defineMasaPierwiastka() {
   masaPierwiastka = eval(pierwiastekInput.value);
   if (typeof masaPierwiastka === "number") {
-    spanMasaPierwiastka.textContent = masaPierwiastka;
+    spanMasaPierwiastka.textContent = masaPierwiastka + " g/mol";
     oblicz();
   } else {
     spanMasaPierwiastka.textContent = "masa pierwiastka";
@@ -153,7 +153,7 @@ let masaZwiazku = eval(zwiazekInput.value);
 function defineMasaZwiazku() {
   masaZwiazku = eval(zwiazekInput.value);
   if (typeof masaZwiazku === "number") {
-    spanMasaZwiazku.textContent = masaZwiazku;
+    spanMasaZwiazku.textContent = masaZwiazku + " g/mol";
     oblicz();
   } else {
     spanMasaZwiazku.textContent = "masa związku";
