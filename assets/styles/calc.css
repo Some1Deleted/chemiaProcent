@@ -60,3 +60,9 @@ button {
 #pWzor {
     margin-left: 15px;
 }
+
+#autor {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
