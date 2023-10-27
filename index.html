@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/styles/calc.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <b>UWAGA:</b><br />
+      Program <u>NIE</u> sprawdza czy podany pierwiastek znajduje się w podanym
+      związku.<br />
+      Nie sprawdza również czy podano prawidłowy związek chemiczny.<br />
+      <br />
+      Jak wpisywać związek chemiczn:<br />
+      <b> H<sub>2</sub>O </b> -> <b>H+H+O</b> lub <b>2*H+O</b>
+    </p>
+    <div>
+      <p>Związek:</p>
+      <div class="flex">
+        <input type="text" title="calc" name="calc" id="zwiazekInput" />
+      </div>
+    </div>
+    <div>
+      <p id="pWzor">Pierwiastek:</p>
+      <div id="wzor" class="flex">
+        <p class="tekst">%</p>
+        <input
+          type="text"
+          title="pierwiastek"
+          name="pierwiastek"
+          id="pierwiastekInput"
+        />
+        <p class="tekst">=</p>
+        <div>
+          <p class="tekstMalyUp">
+            <span id="masa-pierwiastka">masa pierwiastka</span> * 100%
+          </p>
+          <div class="line"></div>
+          <p class="tekstMaly"><span id="masa-zwiazku">masa związku</span></p>
+        </div>
+        <p class="tekst">≈<span id="wynik">?</span>%</p>
+      </div>
+    </div>
+    <script src="assets/scripts/final.js"></script>
+  </body>
+</html>

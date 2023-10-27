@@ -1,0 +1,62 @@
+.flex {
+    display: flex;
+}
+
+#calc {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#zwiazekInput {
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+#pierwiastekInput {
+    width: 45px;
+    height: 43px;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.tekst{
+    font-size: 43px;
+    height: 40px;
+    margin: 0;
+}
+
+button {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+#wzor {
+    margin-top: 0;
+}
+
+.tekstMaly {
+    font-size: 14px;
+    height: 15px;
+    margin: 7px 10px 7px 10px;
+    text-align: center;
+}
+
+.tekstMalyUp {
+    font-size: 14px;
+    height: 15px;
+    margin: 0px 10px 12px 10px;
+    text-align: center;
+}
+
+.line {
+    height: 2px;
+    width: auto;
+    background-color: black;
+}
+
+#pWzor {
+    margin-left: 15px;
+}
